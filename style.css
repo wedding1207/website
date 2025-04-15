@@ -8,13 +8,22 @@ body {
   color: #4b1d1d;
 }
 
-/* Header */
 header {
   background: linear-gradient(to bottom right, #800000, #5a2a2a);
   color: #fdf6e3;
   text-align: center;
-  padding: 4rem 2rem;
-  position: relative;
+  padding: 4rem 2rem 3rem;
+}
+
+.ganesh-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.ganesh-icon {
+  width: 90px;
+  height: auto;
 }
 
 header h1 {
@@ -37,14 +46,6 @@ header h1 {
   color: #ffe7ba;
 }
 
-.ganesh-icon {
-  width: 80px;
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-
-/* Events */
 .event {
   background: #fffaf4;
   padding: 2rem 3rem;
@@ -62,7 +63,6 @@ header h1 {
   margin: 0.3rem 0;
 }
 
-/* Footer */
 footer {
   background: #4b1d1d;
   color: #fbe9d0;
